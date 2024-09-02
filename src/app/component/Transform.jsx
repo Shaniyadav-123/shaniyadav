@@ -13,9 +13,9 @@ function Transform() {
                     <div>
                         <div className='inline-block p-2 rounded-full border-[1px] border-[#00D563]'>
                             <div className='relative inline-block '>
-                                <Image className='inline-block ' src={Avatar}></Image>
-                                <Image className='inline-block absolute left-4 top-[1px]' src={Avatar1}></Image>
-                                <Image className='inline-block absolute left-8 top-[1px]' src={Avatar2}></Image>
+                                <Image className='inline-block ' src={Avatar} alt={Avatar}></Image>
+                                <Image className='inline-block absolute left-4 top-[1px]' src={Avatar1} alt={Avatar1}></Image>
+                                <Image className='inline-block absolute left-8 top-[1px]' src={Avatar2} alt={Avatar2}></Image>
                             </div>
                             <div className='inline-block ml-10 text-[#00D563] text-sm'>Trusted by 2000+ People</div>
                         </div>
@@ -47,7 +47,7 @@ function Transform() {
                             </div>
                             <div className='bg-black p-3 my-5 sm:my-0 sm:inline-block rounded-md sm:absolute -left-14 md:left-24 top-80 xl:top-44'>
                                 <div>
-                                    <Image className='inline-block sm:absolute top-3' src={Rectangle}></Image>
+                                    <Image className='inline-block sm:absolute top-3' src={Rectangle} alt={Rectangle}></Image>
                                     <div className="inline-block" >
                                         <p className='text-[10px] ml-8'>Lewis Rivera Junior</p>
                                         <p className='text-[10px] ml-8 text-[#0ba4eb]'>Product designer</p>

@@ -12,7 +12,7 @@ function Footer() {
                 <div className=' max-w-[1270px] mx-auto py-20  px-5'>
                 <div className='grid grid-cols-1 lg:grid-cols-4'>
                     <div className='col-span-2'>
-                        <Image src={Logo}></Image>
+                        <Image src={Logo} alt='Logo'></Image>
                         <div className='mt-10 mb-5'>
                         <div className='p-3 rounded-full border-[#292F3B] border-[1px] inline-block'>
                            <Image src={Facebook} alt='Facebook'></Image>

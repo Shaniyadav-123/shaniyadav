@@ -3,10 +3,10 @@ import React, { useState } from 'react';
 import Logo from '../img/Logo.svg';
 import Image from 'next/image';
 
-function navbar() {
+function Navbar() {
     const [dropdownVisible, setDropdownVisible] = useState(null);
     const [isVisible, setIsVisible] = useState(false);
-    const [colorChange, setcolorChange] = useState(null);
+    const [colorChange, setColorChange] = useState(null);
     // Function to toggle the class
     const navMenu = () => {
         setIsVisible(!isVisible);
@@ -32,7 +32,7 @@ function navbar() {
   <div className={`items-center justify-between ${isVisible ? 'block' : 'hidden'} w-full lg:flex lg:w-auto lg:order-1`} id="navbar-cta">
     <ul className="flex flex-col font-medium py-4  mt-4 border  rounded-lg bg-black lg:space-x-5 rtl:space-x-reverse lg:flex-row lg:mt-0 lg:border-0  border-gray-700">
     <li>
-                    <button  type="button" className={`flex items-center  justify-between w-full px-3 ${colorChange === "Products" ? 'bg-[#00d563] text-black' : 'text-white0'} hover:bg-[#00d563] py-2  rounded hover:text-black`} onClick={()=>{setDropdownVisible(dropdownVisible === "Products" ? null : "Products"),setcolorChange(colorChange === "Products" ? null : "Products")}}>Products<svg class="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                    <button  type="button" className={`flex items-center  justify-between w-full px-3 ${colorChange === "Products" ? 'bg-[#00d563] text-black' : 'text-white0'} hover:bg-[#00d563] py-2  rounded hover:text-black`} onClick={()=>{setDropdownVisible(dropdownVisible === "Products" ? null : "Products"),setColorChange(colorChange === "Products" ? null : "Products")}}>Products<svg class="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
                    </svg></button>
                     <div className={`z-10 lg:absolute ${dropdownVisible === "Products" ? 'block' : 'hidden'}  divide-y divide-gray-100 rounded-lg shadow w-44 bg-gray-700`}>
@@ -54,7 +54,7 @@ function navbar() {
          </li>
 
         <li>
-                    <button  type="button" className={`flex items-center justify-between w-full px-3 ${colorChange === "Customers" ? 'bg-[#00d563] text-black' : 'text-white'} hover:bg-[#00d563] py-2   rounded hover:text-black`} onClick={()=>{setDropdownVisible(dropdownVisible === "Customers" ? null : "Customers"),setcolorChange(colorChange === "Customers" ? null : "Customers")}}>Customers<svg class="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                    <button  type="button" className={`flex items-center justify-between w-full px-3 ${colorChange === "Customers" ? 'bg-[#00d563] text-black' : 'text-white'} hover:bg-[#00d563] py-2   rounded hover:text-black`} onClick={()=>{setDropdownVisible(dropdownVisible === "Customers" ? null : "Customers"),setColorChange(colorChange === "Customers" ? null : "Customers")}}>Customers<svg class="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
                    </svg></button>
                     <div  className={`z-10 lg:absolute ${dropdownVisible ==='Customers' ? 'block' : 'hidden'}  divide-y divide-gray-100 rounded-lg shadow w-44 bg-gray-700`}>
@@ -80,7 +80,7 @@ function navbar() {
       </li>
 
         <li>
-                    <button  type="button" className={`flex items-center justify-between w-full px-3 ${colorChange === "About" ? 'bg-[#00d563] text-black' : 'text-white'} hover:bg-[#00d563] py-2   rounded hover:text-black`} onClick={()=>{setDropdownVisible(dropdownVisible === "About" ? null : "About"),setcolorChange(colorChange === "About" ? null : "About")}}>About<svg class="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                    <button  type="button" className={`flex items-center justify-between w-full px-3 ${colorChange === "About" ? 'bg-[#00d563] text-black' : 'text-white'} hover:bg-[#00d563] py-2   rounded hover:text-black`} onClick={()=>{setDropdownVisible(dropdownVisible === "About" ? null : "About"),setColorChange(colorChange === "About" ? null : "About")}}>About<svg class="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
                    </svg></button>
                     <div className={`z-10 lg:absolute ${dropdownVisible === "About"? 'block' : 'hidden'}  divide-y divide-gray-100 rounded-lg shadow w-44 bg-gray-700`}>
@@ -102,7 +102,7 @@ function navbar() {
          </li>
 
       <li >
-                    <button className={`flex items-center  justify-between w-full px-3 ${colorChange === "Resources" ? 'bg-[#00d563] text-black' : 'text-white'} hover:bg-[#00d563] py-2   rounded hover:text-black`} onClick={()=>{setDropdownVisible(dropdownVisible === "Resources" ? null : "Resources"),setcolorChange(colorChange === "Resources" ? null : "Resources")}}>Resources<svg class="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                    <button className={`flex items-center  justify-between w-full px-3 ${colorChange === "Resources" ? 'bg-[#00d563] text-black' : 'text-white'} hover:bg-[#00d563] py-2   rounded hover:text-black`} onClick={()=>{setDropdownVisible(dropdownVisible === "Resources" ? null : "Resources"),setColorChange(colorChange === "Resources" ? null : "Resources")}}>Resources<svg class="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
                    </svg></button>
                     <div id="doubleDropdown" className={`z-10 lg:absolute ${dropdownVisible === "Resources"? 'block' : 'hidden'}  divide-y divide-gray-100 rounded-lg shadow w-44 bg-gray-700`}>
@@ -123,7 +123,7 @@ function navbar() {
                     </div>
          </li>
          <li>
-        <a href="#" className={`block py-2 px-3  ${colorChange === "Careers" ? 'bg-[#00d563] text-black' : 'text-white '} rounded    hover:bg-[#00d563] hover:text-black border-gray-700`} onClick={()=>{setcolorChange(colorChange === "Careers" ? null : "Careers"),setDropdownVisible("Pricing")}}>Careers</a>
+        <a href="#" className={`block py-2 px-3  ${colorChange === "Careers" ? 'bg-[#00d563] text-black' : 'text-white '} rounded    hover:bg-[#00d563] hover:text-black border-gray-700`} onClick={()=>{setColorChange(colorChange === "Careers" ? null : "Careers"),setDropdownVisible("Pricing")}}>Careers</a>
       </li>
     </ul>
   </div>
@@ -134,4 +134,4 @@ function navbar() {
   )
 }
 
-export default navbar
+export default Navbar
