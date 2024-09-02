@@ -29,14 +29,14 @@ function Story() {
                         <Image className="w-16 h-[90px] rounded-lg" src={customer1} alt={customer1}/>
                         <div className="w-[313px] flex-col justify-start items-start gap-3 inline-flex">
                             <div><span className="text-white text-lg font-medium ">Dr. N V Rao </span><span className="text-white text-sm font-medium ">(CEO, & MD)</span></div>
-                            <div className="w-[313px] text-[#cfd0dc] text-base font-normal  leading-tight block md:block xs:hidden ">This HRMS has transformed our HR operations. It's user-friendly and has significantly improved our efficiency</div>
+                            <div className="w-[313px] text-[#cfd0dc] text-base font-normal  leading-tight block md:block xs:hidden ">This HRMS has transformed our HR operations. It’s user-friendly and has significantly improved our efficiency</div>
                         </div>
                     </div>
                     <div className="h-[113px] px-3 py-2 bg-[#292f3b] rounded-2xl shadow justify-self-end  items-center gap-6 inline-flex">
                     <Image className="w-16 h-[90px] rounded-lg" src={customer2} alt={customer2} />
                         <div className="w-[313px] flex-col justify-start items-start gap-3 inline-flex">
                             <div><span className="text-white text-lg font-medium ">Dr. N V Rao </span><span className="text-white text-sm font-medium ">(CEO, & MD)</span></div>
-                            <div className="w-[313px] text-[#cfd0dc] text-base font-normal  leading-tight md:block xs:hidden ">This HRMS has transformed our HR operations. It's user-friendly and has significantly improved our efficiency</div>
+                            <div className="w-[313px] text-[#cfd0dc] text-base font-normal  leading-tight md:block xs:hidden ">This HRMS has transformed our HR operations. It’s user-friendly and has significantly improved our efficiency</div>
                         </div>
                     </div>
                     <div className="h-[113px] px-3 py-2 bg-[#292f3b] rounded-2xl shadow justify-self-center items-center gap-6 inline-flex">
@@ -54,7 +54,7 @@ function Story() {
                         </div>
                     </div>
                     <div class="h-[113px] px-3 py-2 bg-[#292f3b] rounded-2xl shadow justify-self-end items-center gap-6 inline-flex  md:mr-20 xs:mr-0 ">
-                        <Image className="w-16 h-[90px] rounded-lg" src={customer4} />
+                        <Image className="w-16 h-[90px] rounded-lg" src={customer4} alt={customer4}/>
                         <div className="w-[313px] flex-col justify-start items-start gap-3 inline-flex ">
                             <div><span className="text-white text-lg font-medium ">Dr. N V Rao </span><span className="text-white text-sm font-medium ">(CEO, & MD)</span></div>
                             <div class="w-[313px] text-[#cfd0dc] text-base font-normal  leading-tight md:block xs:hidden">Saifast’s advanced analytics and insights empowered us to make data-driven decisions</div>
