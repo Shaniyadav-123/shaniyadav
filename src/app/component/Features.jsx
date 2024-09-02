@@ -253,7 +253,7 @@ function Features() {
                         </div>
           
                         <div>
-                        <div className="w-full px-5 lg:w-[424px] mt-[50px] lg:mt-[200px] flex-col justify-start items-start gap-10 mr-[20px] inline-flex relative">
+                        <div className="w-full px-5 lg:w-[350px] xl:w-[450px] mt-[50px] lg:mt-[200px] flex-col justify-start items-start gap-10 mr-[20px] inline-flex relative">
                             
                           {  HRlist.map((list)=>(
                         <div className="bg-[#202530] w-full py-8 px-5" key={list.title}>

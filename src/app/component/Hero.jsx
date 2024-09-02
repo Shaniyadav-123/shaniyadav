@@ -46,7 +46,7 @@ function Hero() {
                                     </div>
                                     <div class="text-center text-[#00d563] text-xs font-medium  leading-[18px]">Trusted by 2000+ People</div>
                                 </div>
-                                <div class="self-stretch text-center text-white lg:text-[64px] md:text-[32px] font-medium  leading-[76.80px]">Simplify Your HR Processes with<br />Our All-in-One HRMS.</div>
+                                <div class="self-stretch text-center text-white text-2xl sm:text-5xl  font-medium  leading-[76.80px]">Simplify Your HR Processes with<br />Our All-in-One HRMS.</div>
                             </div>
                             <div class="flex justify-center gap-7 mt-10 ">
                                 <div class="justify-start items-start gap-10 flex">
