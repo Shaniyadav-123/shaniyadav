@@ -76,7 +76,7 @@ function Navbar() {
          </li>
 
       <li>
-        <a href="#" className={`block py-2 px-3   ${colorChange === "Pricing" ? 'bg-[#00d563] text-black' : 'text-white'} rounded  hover:text-black  hover:bg-[#00d563]   border-gray-700`} id='Pricing' onClick={()=>{setcolorChange(colorChange === "Pricing" ? null : "Pricing"),setDropdownVisible("Pricing")}}>Pricing</a>
+        <a href="#" className={`block py-2 px-3   ${colorChange === "Pricing" ? 'bg-[#00d563] text-black' : 'text-white'} rounded  hover:text-black  hover:bg-[#00d563]   border-gray-700`} id='Pricing' onClick={()=>{setColorChange(colorChange === "Pricing" ? null : "Pricing"),setDropdownVisible("Pricing")}}>Pricing</a>
       </li>
 
         <li>
