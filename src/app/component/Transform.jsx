@@ -7,7 +7,7 @@ import Imag8 from '../img/image 8.png'
 import Rectangle from '../img/Rectangle.png'
 function Transform() {
     return (
-        <div className='px-2'>
+        <div className='px-4'>
             <div className='max-w-[1000px] xl:max-w-[1270px]  sm:mx-auto py-12 px-5 sm:px-20  mt-5 sm:mt-20 bg-[#1C2028] rounded-3xl w-full'>
                 <div className="grid grid-cols-1 xl:grid-cols-2">
                     <div>
@@ -19,7 +19,7 @@ function Transform() {
                             </div>
                             <div className='inline-block ml-10 text-[#00D563] text-sm'>Trusted by 2000+ People</div>
                         </div>
-                        <h1 className="md:w-[640px] text-left  text-[#fbfcfc] text-2xl sm:text-4xl font-normal my-5">Ready to Transform Your HR Management?</h1>
+                        <h1 className="md:w-[640px] text-left  text-[#fbfcfc] text-xl sm:text-3xl lg:text-5xl font-normal my-5">Ready to Transform Your HR Management?</h1>
                         <p>Join hundreds of satisfied customers who have streamlined their HR processes with our HRMS.</p>
                         <button type="button" class="text-[#0f1228] bg-[#00d563] hover:bg-[#00d563] focus:ring-4 hover:text-[#0f1228] font-medium rounded-lg text-xs px-5 py-2.5 mt-10 ">
                             Schedule a Demo
@@ -54,10 +54,10 @@ function Transform() {
                                     </div>
                                 </div>
                                 <hr className='border-[#666984] my-3' />
-                                <button type="button" class="text-[#0f1228] bg-[#00d563] hover:bg-[#00d563] focus:ring-4 hover:text-[#0f1228] font-medium rounded-lg sm:text-xs px-2 py-1 me-2 ">
+                                <button type="button" class="text-[#0f1228] border-2  border-[#00d563]  bg-[#00d563] hover:bg-[#00d563] focus:ring-4 hover:text-[#0f1228] font-medium rounded-lg sm:text-xs px-2 py-1 me-2 ">
                                     Login
                                 </button>
-                                <button type="button" class="text-[#00d563] border-2  border-[#00d563]  focus:ring-4  font-medium rounded-lg sm:text-xs px-2 py-0.5 me-2 ">
+                                <button type="button" class="text-[#00d563] border-2  border-[#00d563]  focus:ring-4  font-medium rounded-lg sm:text-xs px-2 py-1 me-2 ">
                                     Logout
                                 </button>
 

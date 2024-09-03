@@ -15,9 +15,9 @@ import Plus from '../img/Plus.svg'
 function HR_Operations() {
     return (
         <>
-            <div className='max-w-[1000px] xl:max-w-[1270px] mx-auto px-2 '>
+            <div className='max-w-[1000px] xl:max-w-[1270px] mx-auto px-4 '>
                 <div className='mx-auto my-16 '>
-                    <h1 className="md:w-[640px] text-center mx-auto text-[#fbfcfc] text-2xl sm:text-5xl font-normal">Unlock the Full Potential of Your HR Operations</h1>
+                    <h1 className="md:w-[640px] text-center mx-auto text-[#fbfcfc] text-xl sm:text-3xl lg:text-5xl font-normal">Unlock the Full Potential of Your HR Operations</h1>
                 </div>
                 <div className="grid grid-cols-1 xl:grid-cols-3 gap-4">
                     <div className='lg:col-span-2 grid-cols-1 grid sm:grid-cols-2 gap-4'>
@@ -218,7 +218,7 @@ function HR_Operations() {
                                 <button type="button" class="text-[#00d563] border-2  border-[#00d563]  focus:ring-4  font-medium rounded-lg text-xs px-5 py-2.5 me-2 ">
                                 Close
                                 </button>
-                                <button type="button" class="text-[#0f1228] bg-[#00d563] hover:bg-[#00d563] focus:ring-4 hover:text-[#0f1228] font-medium rounded-lg text-xs px-5 py-2.5 me-2 ">
+                                <button type="button" class="text-[#0f1228] border-2  border-[#00d563]  bg-[#00d563] hover:bg-[#00d563] focus:ring-4 hover:text-[#0f1228] font-medium rounded-lg text-xs px-5 py-2.5 me-2 ">
                                 Save
                                 </button>
                                 </div>

@@ -36,7 +36,7 @@ function Features() {
                         <div className='lg:col-span-2'>
                         {/* Key Features That Simplify HR Management  */}
                             <div className='mx-auto px-5'>
-                                <h1 className="md:w-[640px] text-center mx-auto text-2xl sm:text-5xl font-normal">Key Features That Simplify HR Management</h1>
+                                <h1 className="md:w-[640px] text-center mx-auto text-xl lg:text-5xl sm:text-3xl font-normal">Key Features That Simplify HR Management</h1>
                             </div>
                             <div className='grid sm:grid-cols-3 mt-20 relative'>
                            

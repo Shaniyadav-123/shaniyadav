@@ -28,10 +28,10 @@ function Work() {
         }
     ]
     return (
-        <div className='px-2 bg-black' >
+        <div className='px-4 bg-black' >
             <div className='max-w-[1000px] xl:max-w-[1270px] mx-auto px-5 py-20 sm:p-20 mt-5 sm:mt-20 bg-[#1C2028] rounded-3xl w-full'>
                 <div className='mx-auto px-5'>
-                    <h1 className="md:w-[640px] text-center mx-auto text-[#fbfcfc] text-2xl sm:text-5xl font-normal">How It Works</h1>
+                    <h1 className="md:w-[640px] text-center mx-auto text-[#fbfcfc] text-xl sm:text-3xl lg:text-5xl font-normal">How It Works</h1>
                 </div>
                 <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-20 mt-10'>
                    {list.map((list, index)=>(

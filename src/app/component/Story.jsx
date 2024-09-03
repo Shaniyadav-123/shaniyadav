@@ -23,8 +23,8 @@ function Story() {
                                     <div class="text-center text-[#00d563] text-xs font-medium  leading-[18px]">Trusted by 2000+ People</div>
                                 </div>
                 </div>
-                <div className='w-full flex justify-center items-center mt-10'><div class="w-[565px] text-center text-[#fbfcfc] text-2xl sm:text-5xl  font-normal  leading-[57.60px]">Real Stories from Happy Customers</div></div>
-                <div className='w-full h-[650.86px] relative  grid grid-cols-1 px-3 sm:px-20'>
+                <div className='w-full flex justify-center items-center mt-10'><div class="w-[565px] text-center text-[#fbfcfc] text-xl sm:text-5xl  font-normal  leading-[57.60px]">Real Stories from Happy Customers</div></div>
+                <div className='w-full h-[650.86px] relative  grid grid-cols-1 px-4 sm:px-20'>
                     <div className="h-[113px] px-3 py-2 bg-[#292f3b] rounded-2xl shadow justify-self-start items-center gap-6 inline-flex md:ml-20 sm:ml-0">
                         <Image className="w-16 h-[90px] rounded-lg" src={customer1} alt={customer1}/>
                         <div className=" sm:w-[313px] flex-col justify-start items-start gap-3 inline-flex">
