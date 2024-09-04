@@ -1,0 +1,165 @@
+/* Reset Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Header Styles */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+}
+
+header nav ul li {
+  margin-right: 20px;
+}
+
+/* Hero Section Styles */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 0;
+  height: 400;
+  background: #007bff;
+}
+
+.hero-content {
+  width: 50%;
+  padding: 0 20px;
+}
+
+.hero-content h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 1.1em;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  font-weight: 700;
+  width: 212px;
+  min-width: 212px;
+  white-space: nowrap;
+}
+.button-magenta {
+  background: #d81671;
+  color: #fafafb;
+}
+.hero-image img {
+  max-width: 100%;
+}
+
+/* Funfacts Grid Styles */
+.funfacts {
+  background-color: #fff;
+  padding: 50px 0;
+}
+
+/* Company Carousel Styles */
+.company-carousel {
+  padding: 50px 0;
+}
+
+/* Review Section Styles */
+.review {
+  background-color: #f7f7f7;
+  padding: 50px 0;
+}
+
+/* Our Recognition Section Styles */
+.recognition {
+  padding: 50px 0;
+}
+
+/* Two Column Section Styles */
+.two-column {
+  display: flex;
+  padding: 50px 0;
+}
+
+.two-column .column {
+  width: 50%;
+  padding: 0 20px;
+}
+
+/* Feature Comparison Section Styles */
+.feature-comparison {
+  padding: 50px 0;
+}
+
+/* Image and Heading Section Styles */
+.image-heading {
+  display: flex;
+  padding: 50px 0;
+}
+
+.image-heading img {
+  max-width: 100%;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer ul li {
+  margin-right: 20px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-content {
+    width: 100%;
+  }
+
+  .hero-image {
+    margin-top: 20px;
+  }
+
+  .two-column {
+    flex-direction: column;
+  }
+
+  .two-column .column {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}

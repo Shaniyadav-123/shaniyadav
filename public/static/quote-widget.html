@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PolicyAdvisor | Life Insurance made easy</title>
+    {{>google-analytics-code}}
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="/static/favicon.png" />
+    <script src="/static/axios.min.js"></script>
+    <script src="./inputmask.js"></script>
+    <script src="./dayjs.min.js"></script>
+    <script src="./dayjs_customParseFormat.js"></script>
+    <link rel="stylesheet" href="./quote-widget.css" />
+  </head>
+
+  <body class="widget-custom">
+    <div class="widget-container">
+      <div class="widget-title">
+        <div class="widget-main-title">Ready to see lowest quotes?</div>
+        <div class="widget-sub-title">Apply in minutes. Save 40% or more</div>
+      </div>
+      <form id="quote-form">
+        <div class="widget-body">
+          <div class="widget-form-group">
+            <div class="widget-column-5">
+              <label>Gender</label>
+              <div class="widget-input">
+                <div class="category">
+                  <input
+                    type="radio"
+                    name="gender"
+                    value="male"
+                    class="option-select__default"
+                    checked
+                  />
+                  <label for="male" class="option-select__box">Male</label>
+                </div>
+                <div class="category">
+                  <input
+                    type="radio"
+                    name="gender"
+                    value="female"
+                    class="option-select__default"
+                  />
+                  <label for="female" class="option-select__box">Female</label>
+                </div>
+              </div>
+            </div>
+            <div class="widget-column-7">
+              <label>Smoking Status</label>
+              <div class="widget-input">
+                <div class="category">
+                  <input
+                    type="radio"
+                    name="smokingStatus"
+                    value="true"
+                    class="option-select__default"
+                  />
+                  <label for="smoker" class="option-select__box">Smoker</label>
+                </div>
+                <div class="category">
+                  <input
+                    type="radio"
+                    name="smokingStatus"
+                    value="false"
+                    class="option-select__default"
+                    checked
+                  />
+                  <label for="nonsmoker" class="option-select__box"
+                    >Non-Smoker</label
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="widget-form-group">
+            <div class="widget-column-5">
+              <label>Date of Birth</label>
+              <div class="widget-input widget-input-with-error">
+                <input
+                  id="date-of-birth"
+                  type="text"
+                  name="dateOfBirth"
+                  placeholder="DD/MM/YYYY"
+                  inputmode="numeric"
+                  class="widget-form-control widget-input"
+                  required
+                  data-inputmask="'mask': '99/99/9999'"
+                />
+                <span class="error" aria-live="polite"></span>
+              </div>
+            </div>
+            <div class="widget-column-7">
+              <label>Postal Code</label>
+              <div class="widget-input widget-input-with-error">
+                <input
+                  type="text"
+                  name="postalCode"
+                  placeholder="A1A 1A1"
+                  class="widget-form-control widget-input"
+                  id="postal-code"
+                  required
+                  pattern="[ABCEGHJKLMNPRSTVXY][0-9][ABCEGHJKLMNPRSTVWXYZ]\s?[0-9][ABCEGHJKLMNPRSTVWXYZ][0-9]"
+                  data-inputmask="'mask': 'A9A 9A9', 'placeholder': ''"
+                />
+                <span class="error" aria-live="polite"></span>
+              </div>
+            </div>
+          </div>
+          <div class="widget-form-group">
+            <div class="widget-column-5">
+              <label>Term</label>
+              <div class="custom-select">
+                <select name="coverageTerm">
+                  <option></option>
+                  <option value="10">10 years</option>
+                  <option value="15">15 years</option>
+                  <option value="20" selected>20 years</option>
+                  <option value="25">25 years</option>
+                  <option value="30">30 years</option>
+                  <option value="35">35 years</option>
+                  <option value="40">40 years</option>
+                  <option value="A">To Age 65</option>
+                </select>
+              </div>
+            </div>
+            <div class="widget-column-7">
+              <label>I want Coverage for</label>
+              <div class="widget-input partner-coverage">
+                <div class="category">
+                  <input
+                    type="radio"
+                    name="partnerCoverage"
+                    value="false"
+                    class="option-select__default"
+                    checked
+                  />
+                  <label for="myself" class="option-select__box">Myself</label>
+                </div>
+                <div class="category">
+                  <input
+                    type="radio"
+                    name="partnerCoverage"
+                    value="true"
+                    class="option-select__default"
+                  />
+                  <label for="myselfAndPartner" class="option-select__box"
+                    >Myself & Partner</label
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="widget-footer">
+          <button class="getQuotes" type="submit" name="submit">
+            GET INSTANT QUOTE
+          </button>
+        </div>
+      </form>
+    </div>
+    <script src="./quoteWidget.js"></script>
+    <script src="./quoteWidgetApis.js" defer></script>
+    <script src="./custom-select.js"></script>
+  </body>
+</html>

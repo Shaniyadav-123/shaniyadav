@@ -1,0 +1,416 @@
+{
+ "products": [
+    {
+      "category": "HRMS",
+      "cards": [
+        {
+          "title": "Photofrezy",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolore adipisci placeat.",
+          "image": "/img/application-deployment.svg",
+          "buttonText": "See More",
+          "buttonLink": "#"
+        },
+        {
+          "title": "HRMS",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolore adipisci placeat.",
+          "image": "/img/website-development.svg",
+          "buttonText": "Learn More",
+          "buttonLink": "#"
+        },
+        {
+          "title": "Photofrezy",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolore adipisci placeat.",
+          "image": "/img/branding.svg",
+          "buttonText": "See More",
+          "buttonLink": "#"
+        },
+        {
+          "title": "HRMS",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolore adipisci placeat.",
+          "image": "/img/digital.svg",
+          "buttonText": "Learn More",
+          "buttonLink": "#"
+        },
+        {
+          "title": "Photofrezy",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolore adipisci placeat.",
+          "image": "/img/frame-6.svg",
+          "buttonText": "See More",
+          "buttonLink": "#"
+        },
+        {
+          "title": "HRMS",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolore adipisci placeat.",
+          "image": "/img/frame-7.svg",
+          "buttonText": "Learn More",
+          "buttonLink": "#"
+        }
+        
+   
+      ]
+    },
+    {
+      "category": "Readymade Landing Pages",
+      "cards": [
+        {
+          "title": "Readymade Landing Page",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolore adipisci placeat.",
+          "image": "/img/application-deployment.svg",
+          "buttonText": "See More",
+          "buttonLink": "#"
+        },
+        {
+          "title": "Readymade Landing Page",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolore adipisci placeat.",
+          "image": "/img/website-development.svg",
+          "buttonText": "See More",
+          "buttonLink": "#"
+        },
+        {
+          "title": "Readymade Landing Page",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolore adipisci placeat.",
+          "image": "/img/branding.svg",
+          "buttonText": "See More",
+          "buttonLink": "#"
+        },
+        {
+          "title": "Readymade Landing Page",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolore adipisci placeat.",
+          "image": "/img/digital.svg",
+          "buttonText": "See More",
+          "buttonLink": "#"
+        },
+        {
+          "title": "Readymade Landing Page",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolore adipisci placeat.",
+          "image": "/img/frame-6.svg",
+          "buttonText": "See More",
+          "buttonLink": "#"
+        },
+        {
+          "title": "Readymade Landing Page",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolore adipisci placeat.",
+          "image": "/img/frame-7.svg",
+          "buttonText": "See More",
+          "buttonLink": "#"
+        }
+   
+   
+      ]
+    },
+    {
+      "category": "Customised Boiler Plates",
+      "cards": [
+        {
+          "title": "Customised Boiler Plates",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolore adipisci placeat.",
+          "image": "/img/application-deployment.svg",
+          "buttonText": "See More",
+          "buttonLink": "#"
+        },
+        {
+          "title": "Customised Boiler Plates",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolore adipisci placeat.",
+          "image": "/img/website-development.svg",
+          "buttonText": "See More",
+          "buttonLink": "#"
+        },
+        {
+          "title": "Customised Boiler Plates",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolore adipisci placeat.",
+          "image": "/img/branding.svg",
+          "buttonText": "See More",
+          "buttonLink": "#"
+        },
+        {
+          "title": "Customised Boiler Plates",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolore adipisci placeat.",
+          "image": "/img/digital.svg",
+          "buttonText": "See More",
+          "buttonLink": "#"
+        },
+        {
+          "title": "Customised Boiler Plates",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolore adipisci placeat.",
+          "image": "/img/frame-6.svg",
+          "buttonText": "See More",
+          "buttonLink": "#"
+        },
+        {
+          "title": "Customised Boiler Plates",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolore adipisci placeat.",
+          "image": "/img/frame-7.svg",
+          "buttonText": "See More",
+          "buttonLink": "#"
+        }
+   
+      ]
+    },
+    {
+      "category": "Design For Branding",
+      "cards": [
+        {
+          "title": "Design For Branding",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolore adipisci placeat.",
+          "image": "/img/application-deployment.svg",
+          "buttonText": "See More",
+          "buttonLink": "#"
+        },
+        {
+          "title": "Design For Branding",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolore adipisci placeat.",
+          "image": "/img/website-development.svg",
+          "buttonText": "See More",
+          "buttonLink": "#"
+        },
+        {
+          "title": "Design For Branding",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolore adipisci placeat.",
+          "image": "/img/branding.svg",
+          "buttonText": "See More",
+          "buttonLink": "#"
+        },
+        {
+          "title": "Design For Branding",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolore adipisci placeat.",
+          "image": "/img/digital.svg",
+          "buttonText": "See More",
+          "buttonLink": "#"
+        },
+        {
+          "title": "Design For Branding",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolore adipisci placeat.",
+          "image": "/img/frame-6.svg",
+          "buttonText": "See More",
+          "buttonLink": "#"
+        },
+        {
+          "title": "Design For Branding",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolore adipisci placeat.",
+          "image": "/img/frame-7.svg",
+          "buttonText": "See More",
+          "buttonLink": "#"
+        }
+   
+      ]
+    }
+  ], 
+  "technology":[
+    {
+      "title": "HTML, CSS",
+      "icon": "/img/coding.png",
+      "advantages": [
+        {
+          "title": "Integrated Design",
+          "description": "HTML structures content, CSS handles styles, creates cohesive & well-designed web pages"
+        },
+        {
+          "title": "Responsive Layouts",
+          "description": "Creates designs that adapt to different devices."
+        },
+        {
+          "title": "Enhanced Accessibility",
+          "description": "Supports semantic and accessible web design."
+        }
+      ]
+    },
+    {
+      "title": "JavaScript",
+      "icon": "/img/js.png",
+      "advantages": [
+        {
+          "title": "Interactivity",
+          "description": "Adds dynamic elements and user interactions to web pages."
+        },
+        {
+          "title": "Asynchronous Operations",
+          "description": "Handles tasks like API requests without blocking the user interface."
+        },
+        {
+          "title": "Versatility",
+          "description": "Can be used for both client-side and server-side development."
+        }
+      ]
+    },
+    {
+      "title": "WordPress",
+      "icon": "/img/word.png",
+      "advantages": [
+        {
+          "title": "Ease of Use",
+          "description": "User-friendly interface for creating and managing content."
+        },
+        {
+          "title": "Customization",
+          "description": "Extensive themes and plugins allow for tailored solutions."
+        },
+        {
+          "title": "Community Support",
+          "description": "Large community offers abundant resources and support."
+        }
+      ]
+    },
+    {
+      "title": "Webflow",
+      "icon": "/img/connect.png",
+      "advantages": [
+        {
+          "title": "Design Flexibility",
+          "description": "Visual development platform with powerful design tools."
+        },
+        {
+          "title": "No Coding Required",
+          "description": "Allows designers to create complex websites without coding."
+        },
+        {
+          "title": "Hosting",
+          "description": "Integrated hosting solutions streamline deployment."
+        }
+      ]
+    },
+    {
+      "title": "React",
+      "icon": "/img/tech-1.png",
+      "advantages": [
+        {
+          "title": "Component-Based Architecture",
+          "description": "Facilitates reusable and maintainable code."
+        },
+        {
+          "title": "Performance",
+          "description": "Efficient rendering using a virtual DOM."
+        },
+        {
+          "title": "Ecosystem",
+          "description": "Rich ecosystem of libraries and tools for various use cases."
+        }
+      ]
+    },
+    {
+      "title": "Vue",
+      "icon": "/img/tech-2.png",
+      "advantages": [
+        {
+          "title": "Ease of Integration",
+          "description": "Can be integrated into projects incrementally."
+        },
+        {
+          "title": "Flexibility",
+          "description": "Offers a balance between simplicity and advanced features."
+        },
+        {
+          "title": "Performance",
+          "description": "Fast and lightweight, suitable for both small and large applications."
+        }
+      ]
+    },
+    {
+      "title": "Node",
+      "icon": "/img/node.png",
+      "advantages": [
+        {
+          "title": "Scalability",
+          "description": "Asynchronous, non-blocking architecture supports high-concurrency applications."
+        },
+        {
+          "title": "Unified Development",
+          "description": "JavaScript on both client and server sides."
+        },
+        {
+          "title": "Rich Ecosystem",
+          "description": "Vast library of modules available via npm."
+        }
+      ]
+    },
+    {
+      "title": "Java",
+      "icon": "/img/java.png",
+      "advantages": [
+        {
+          "title": "Reliability",
+          "description": "Strong typing and object-oriented design ensure stability."
+        },
+        {
+          "title": "Cross-Platform",
+          "description": "Runs on any device due to its platform independence."
+        },
+        {
+          "title": "Mature Ecosystem",
+          "description": "Extensive libraries and frameworks for varied applications."
+        }
+      ]
+    },
+    {
+      "title": "Spring Boot",
+      "icon": "/img/code.png",
+      "advantages": [
+        {
+          "title": "Ease of Development",
+          "description": "Simplifies setup and configuration for quick development."
+        },
+        {
+          "title": "Microservices Support",
+          "description": "Streamlines the creation and deployment of microservices."
+        },
+        {
+          "title": "Production-Ready",
+          "description": "Includes built-in features for monitoring, security, and performance."
+        }
+      ]
+    },
+    {
+      "title": "Strapi",
+      "icon": "/img/spring.png",
+      "advantages": [
+        {
+          "title": "Headless CMS",
+          "description": "Flexibility to create and manage content across multiple platforms."
+        },
+        {
+          "title": "Saves Time and Resources",
+          "description": "Saves time and resources by leveraging existing solutions."
+        },
+        {
+          "title": "API-First",
+          "description": "Easily integrates with various front-end frameworks."
+        }
+      ]
+    },
+    {
+      "title": "Microservices",
+      "icon": "/img/micro.png",
+      "advantages": [
+        {
+          "title": "Scalability",
+          "description": "Individual services can be scaled independently."
+        },
+        {
+          "title": "Resilience",
+          "description": "Isolated failures prevent system-wide issues."
+        },
+        {
+          "title": "Flexibility",
+          "description": "Enables the use of different technologies for different services."
+        }
+      ]
+    },
+    {
+      "title": "DBMS – Database Management",
+      "icon": "/img/circle.png",
+      "advantages": [
+        {
+          "title": "Data Integrity",
+          "description": "Ensures accuracy and consistency of data."
+        },
+        {
+          "title": "Security",
+          "description": "Provides robust security features to protect data."
+        },
+        {
+          "title": "Efficiency",
+          "description": "Optimizes data retrieval and management for complex queries and transactions."
+        }
+      ]
+    }
+  ]
+}
