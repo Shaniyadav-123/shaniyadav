@@ -170,7 +170,7 @@ function HR_Operations() {
                             <div className="text-[#d0d1dd] text-base font-normal  leading-normal">Engage your workforce with self-service tools and performance management.</div>
                             <div className="w-full  bg-[#292f3b] rounded-[7.18px] shadow p-4 sm:px-5 my-2 mt-5">
                                 <div className='p-2 '>
-                                    <h3 className='inline-block'>Create an Event</h3>
+                                    <h3 className='inline-block text-lg'>Create an Event</h3>
                                     <div className='inline-block float-right'>
                                         <Image src={Cross} alt={Cross}></Image>
                                     </div>
