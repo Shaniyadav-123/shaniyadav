@@ -25,16 +25,16 @@ function HR_Operations() {
                         {/* row 1 */}
                         <div className="relative bg-[#1c2028] h-[300px] md:h-auto rounded-[20px] p-5">
                             <div className="w-full   text-2xl font-semibold  leading-[31.20px]">Increase Efficiency</div>
-                            <div className="w-full  text-[#d0d1dd] text-base font-normal  leading-normal">Save time and reduce manual errors with automated HR processes.</div>
+                            <div className="w-full  text-white text-base font-normal  leading-normal">Save time and reduce manual errors with automated HR processes.</div>
                             <div className="w-full h-[138px] " />
                             <div className=" justify-between items-center grid grid-cols-7">
-                                <div className="opacity-50 text-[#c1c4e4] text-base font-normal  leading-none">su</div>
-                                <div className="opacity-50 text-[#c1c4e4] text-base font-normal  leading-none">mo</div>
-                                <div className="opacity-50 text-[#c1c4e4] text-base font-normal  leading-none">tu</div>
-                                <div className="opacity-50 text-[#c1c4e4] text-base font-normal  leading-none">we</div>
-                                <div className="opacity-50 text-[#c1c4e4] text-base font-normal  leading-none">th</div>
-                                <div className="opacity-50 text-[#c1c4e4] text-base font-normal  leading-none">fr</div>
-                                <div className="opacity-50 text-[#c1c4e4] text-base font-normal  leading-none">sa</div>
+                                <div className="opacity-80 text-white text-base font-normal  leading-none">su</div>
+                                <div className="opacity-80 text-white text-base font-normal  leading-none">mo</div>
+                                <div className="opacity-80 text-white text-base font-normal  leading-none">tu</div>
+                                <div className="opacity-80 text-white text-base font-normal  leading-none">we</div>
+                                <div className="opacity-80 text-white text-base font-normal  leading-none">th</div>
+                                <div className="opacity-80 text-white text-base font-normal  leading-none">fr</div>
+                                <div className="opacity-80 text-white text-base font-normal  leading-none">sa</div>
                             </div>
                             <div className="w-3.5 h-3.5 left-[266px] top-[145px] absolute">
                                 <div className="w-3.5 h-3.5 left-[-6px] top-0 absolute bg-[#005527] rounded-full" />

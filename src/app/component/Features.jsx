@@ -167,13 +167,13 @@ function Features() {
                                             <div className="rounded-[61.11px] flex-col justify-start items-start flex">
                                                 <div className="px-[19.56px] py-[7.33px] bg-[#8956f8]/10 rounded-[56.22px] flex-col justify-center items-center gap-[12.22px] flex">
                                                     <div className="justify-center items-center gap-[4.89px] inline-flex">
-                                                        <div className="text-[#8956f8] text-xs font-medium ">TODAY</div>
+                                                        <div className="text-[#986bf9] text-sm font-medium ">TODAY</div>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div className="self-stretch h-12 flex-col justify-start items-start gap-1 flex">
-                                                <div className="text-[#cfd5e2] text-xs font-medium ">Team</div>
-                                                <div className="w-[130px] text-[#cfd0dc] text-2xl font-semibold">On Holiday</div>
+                                                <div className="text-white text-xs font-medium ">Team</div>
+                                                <div className="w-[130px] text-white text-xl font-semibold">On Holiday</div>
                                             </div>
                                             <div className="w-[42px] h-[42px] p-[10.50px] bg-[#8956f8] rounded-[10.50px] justify-center items-center inline-flex">
                                                 <div className="w-[21px] h-[21px] pl-[2.62px] pr-[3.37px] py-[3.94px] justify-center items-center inline-flex" >
