@@ -27,7 +27,7 @@ function Footer() {
                     </div>
 
                     <div className='col-span-2 lg:pl-16'>
-                        <h4 className='text-[#00d563] text-md mb-5'>Subscription</h4>
+                        <h3 className='text-[#00d563] text-md mb-5'>Subscription</h3>
                         <div className='border-2  border-white/10 inline-block rounded-xl px-5 lg:w-full relative'>
                             <input type="text" className='h-full bg-transparent w-full outline-none /10 my-2.5 pr-36 placeholder-white/10' placeholder='E-mail' />
                             <button type="button" class="text-[#0f1228] absolute right-5 top-1 bg-[#00d563] hover:bg-[#00d563] focus:ring-4 hover:text-[#0f1228] font-medium rounded-lg text-xs px-10 py-2.5">
@@ -38,7 +38,7 @@ function Footer() {
                    </div> 
                     <div className="grid grid-cols-1 lg:grid-cols-3">
                     <div>
-                        <h4 className='text-[#00d563] text-md my-5'>Info</h4>
+                        <h3 className='text-[#00d563] text-md my-5'>Info</h3>
                         <div><a className='hover:text-[#00d563] '  href="/">Core HR</a></div>
                         <div><a className='hover:text-[#00d563] ' href="/">Payroll</a></div>
                         <div><a className='hover:text-[#00d563] ' href="/">Hiring & Onboarding</a></div>
@@ -46,13 +46,13 @@ function Footer() {
                         <div><a className='hover:text-[#00d563] ' href="/">Performance</a></div>
                     </div>
                     <div>
-                        <h4 className='text-[#00d563] text-md my-5'>About us</h4>
+                        <h3 className='text-[#00d563] text-md my-5'>About us</h3>
                         <div><a className='hover:text-[#00d563] ' href="/">Gallery</a></div>
                         <div><a className='hover:text-[#00d563] ' href="/">Technologies</a></div>
                         <div><a className='hover:text-[#00d563] ' href="/">Contacts</a></div>
                     </div>
                     <div>
-                        <h4 className='text-[#00d563] text-md my-5'>Contact us</h4>
+                        <h3 className='text-[#00d563] text-md my-5'>Contact us</h3>
                         <div className=''>Sales: +91 89292 08062</div>
                         <div><a className='hover:text-[#00d563] ' href="/">sales@gitlime.com</a></div>
                         <p className='mt-5 '>For Support:</p>
