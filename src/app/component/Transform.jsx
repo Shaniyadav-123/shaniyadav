@@ -33,7 +33,7 @@ function Transform() {
                                 <p className='inline-block text-sm ml-2'>5 tasks pending</p>
                             </div>
                             <div className='bg-black my-5 sm:my-0 px-3 py-2 sm:inline-block rounded-lg sm:absolute right-20 md:-right-14 top-64 xl:top-28'>
-                                <h4 className='text-sm'>Calendar</h4>
+                                <h3 className='text-sm'>Calendar</h3>
                                 <div className='bg-[#1c2028] rounded p-2 px-3 my-2'>
                                     <p className='text-xs leading-[8px]'>Leadership seminar</p>
                                     <div className="w-2 h-2 bg-[#f7a708] rounded-full inline-block" />
